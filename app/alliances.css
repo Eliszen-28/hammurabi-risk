@@ -3,5 +3,7 @@
 .alliance-logo{height:150px;border:1px solid #d7dde5;border-radius:22px;background:#fff;display:flex;align-items:center;justify-content:center;padding:22px;overflow:hidden;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
 .alliance-logo:hover{transform:translateY(-4px);border-color:#3c51ec;box-shadow:0 14px 30px #22376212}
 .alliance-logo img{width:100%;height:100%;max-height:94px;object-fit:contain;mix-blend-mode:normal}
+.alliance-subtitle{grid-column:1/-1;color:#223762;font-size:clamp(30px,4vw,48px);line-height:1.08;letter-spacing:-1.5px;margin:20px 0 -28px}
+.surety-logos{grid-template-columns:repeat(3,1fr)}
 @media(max-width:900px){.alliance-logos{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:560px){.alliance-logos{grid-template-columns:repeat(2,1fr);gap:10px}.alliance-logo{height:115px;padding:14px}}
+@media(max-width:560px){.alliance-logos,.surety-logos{grid-template-columns:repeat(2,1fr);gap:10px}.alliance-logo{height:115px;padding:14px}.alliance-subtitle{margin-bottom:-30px}}
