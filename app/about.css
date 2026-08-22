@@ -1,4 +1,12 @@
 .about-mascot-clean{overflow:visible;background:transparent;position:relative}
-.about-mascot-clean:before{content:"";position:absolute;width:min(92%,520px);aspect-ratio:1;background:#fff;border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%);box-shadow:0 28px 55px #00000020}
-.about-mascot-clean img{height:76%;max-width:74%;object-fit:contain;mix-blend-mode:normal;filter:drop-shadow(0 20px 28px #00000020);position:relative;z-index:1}
-@media(max-width:850px){.about-mascot-clean img{height:78%;max-width:74%}}
+.about-mascot-clean:before{display:none}
+.about-mascot-clean img{height:82%;max-width:80%;object-fit:contain;mix-blend-mode:normal;filter:drop-shadow(0 20px 28px #22376220);position:relative;z-index:1}
+.about{background:#fff;color:#223762}
+.about .eyebrow.light{color:#3c51ec}
+.about h2{color:#223762}
+.about .about-copy>p:not(.eyebrow){color:#505b6c}
+.about .values>div{border-top-color:#d7dde5}
+.about .values span{color:#3c51ec}
+.about .values h3{color:#223762}
+.about .values p{color:#5f6878}
+@media(max-width:850px){.about-mascot-clean img{height:84%;max-width:80%}}
