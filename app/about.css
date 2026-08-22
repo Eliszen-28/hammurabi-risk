@@ -1,0 +1,3 @@
+.about-mascot-clean{overflow:visible;background:transparent}
+.about-mascot-clean img{height:94%;max-width:100%;object-fit:contain;mix-blend-mode:normal;filter:drop-shadow(0 24px 34px #00000025)}
+@media(max-width:850px){.about-mascot-clean img{height:100%}}
