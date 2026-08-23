@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SiteFooter from "../SiteFooter";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
@@ -17,7 +18,7 @@ const promises = [
 
 export default function PromisePage() {
   return <main className="promise-page">
-    <header className="nav shell"><Link className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><nav aria-label="Navegación principal"><Link href="/#especialistas-riesgos">Riesgos</Link><Link href="/#experiencia">Nuestra labor</Link><Link href="/nuestra-promesa">Promesa</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
+    <header className="nav shell"><a className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></a><nav aria-label="Navegación principal"><Link href="/#especialistas-riesgos">Riesgos</Link><Link href="/#experiencia">Nuestra labor</Link><Link href="/nuestra-promesa">Promesa</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
 
     <section className="promise-hero shell"><p className="eyebrow">Hammurabi Risk · Libro Maestro 16</p><h1>Una promesa que<br /><em>trasciende las pólizas.</em></h1><p className="promise-principle">Podemos proteger muchas cosas. Pero existe una que debemos ganar todos los días: <strong>tu confianza.</strong></p></section>
 
@@ -37,6 +38,6 @@ export default function PromisePage() {
 
     <section className="promise-final shell"><p>Conocimiento. Transparencia. Compromiso. Acompañamiento.</p><h2>Tu confianza es aquello que elegimos ganar <em>todos los días.</em></h2><Link className="button" href="/#contacto">Comencemos una relación</Link></section>
 
-    <footer><div className="shell footer-top"><Link className="brand inverse" href="/"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><p>Consultores de riesgos y seguros</p><a href="tel:+526566696738">656 669 6738</a></div><div className="shell copyright">HAMMURABI RISK | LIBRO MAESTRO 16</div></footer>
+    <SiteFooter />
   </main>;
 }

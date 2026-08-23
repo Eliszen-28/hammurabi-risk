@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SiteFooter from "../SiteFooter";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
@@ -11,7 +12,7 @@ const moments = ["Un diagnóstico inesperado", "Un accidente", "Una pérdida pat
 
 export default function OurWorkPage() {
   return <main className="our-work-page">
-    <header className="nav shell"><Link className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><nav aria-label="Navegación principal"><Link href="/#servicios">Servicios</Link><Link href="/#especialistas-riesgos">Riesgos</Link><Link href="/#experiencia">Nuestra labor</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
+    <header className="nav shell"><a className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></a><nav aria-label="Navegación principal"><Link href="/#servicios">Servicios</Link><Link href="/#especialistas-riesgos">Riesgos</Link><Link href="/#experiencia">Nuestra labor</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
 
     <section className="work-hero shell"><p className="eyebrow">Acompañamiento Hammurabi</p><h1>Cuando nuestra labor<br /><em>cobra sentido.</em></h1><p className="work-principle">Es en los momentos más difíciles donde demostramos nuestro verdadero valor.</p></section>
 
@@ -27,6 +28,6 @@ export default function OurWorkPage() {
 
     <section className="work-closing shell"><span>La diferencia está en estar</span><blockquote>Nuestra labor cobra verdadero sentido cuando aquello que durante meses fue una póliza se convierte en una <em>necesidad real.</em></blockquote><Link className="button" href="/nuestra-promesa">Conoce nuestra promesa</Link></section>
 
-    <footer><div className="shell footer-top"><Link className="brand inverse" href="/"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><p>Consultores de riesgos y seguros</p><a href="tel:+526566696738">656 669 6738</a></div><div className="shell copyright">HAMMURABI RISK | NUESTRA LABOR</div></footer>
+    <SiteFooter />
   </main>;
 }

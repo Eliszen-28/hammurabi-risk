@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SiteFooter from "../SiteFooter";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
@@ -11,7 +12,7 @@ const scenarios = ["Accidente laboral", "Incendio", "Enfermedad de alta especial
 
 export default function RiskManagementPage() {
   return <main className="risk-management-page">
-    <header className="nav shell"><Link className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><nav aria-label="Navegación principal"><Link href="/#servicios">Servicios</Link><Link href="/#especialistas-riesgos">Riesgos</Link><Link href="/#experiencia">Nuestra labor</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
+    <header className="nav shell"><a className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></a><nav aria-label="Navegación principal"><Link href="/#servicios">Servicios</Link><Link href="/#especialistas-riesgos">Riesgos</Link><Link href="/#experiencia">Nuestra labor</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
 
     <section className="risk-book-hero shell"><p className="eyebrow">Hammurabi Risk · Gestión estratégica</p><h1>La administración<br /><em>integral de riesgos.</em></h1><div className="risk-hero-bottom"><p>El riesgo no puede eliminarse. Pero sí puede <strong>comprenderse, administrarse y controlarse.</strong></p><span>↓</span></div></section>
 
@@ -25,6 +26,6 @@ export default function RiskManagementPage() {
 
     <section className="risk-closing shell"><span>Una visión de largo plazo</span><blockquote>La administración de riesgos no consiste en evitar que ocurran los problemas. Consiste en estar preparados para que ninguno de ellos <em>detenga el futuro</em> de quienes confían en nosotros.</blockquote></section>
 
-    <footer><div className="shell footer-top"><Link className="brand inverse" href="/"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><p>Consultores de riesgos y seguros</p><a href="tel:+526566696738">656 669 6738</a></div><div className="shell copyright">HAMMURABI RISK | ADMINISTRACIÓN INTEGRAL DE RIESGOS</div></footer>
+    <SiteFooter />
   </main>;
 }
