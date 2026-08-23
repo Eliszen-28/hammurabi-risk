@@ -24,7 +24,7 @@ export default function OurWorkPage() {
 
     <section className="work-presence"><div className="shell"><p className="eyebrow light">Nuestra forma de estar</p><h2>Presentes en cada momento.</h2><div className="presence-grid"><article><span>ANTES</span><h3>Prevenir</h3><p>Analizamos y construimos la protección.</p></article><article><span>DURANTE</span><h3>Responder</h3><p>Actuamos con claridad cuando surge el problema.</p></article><article><span>DESPUÉS</span><h3>Acompañar</h3><p>Damos seguimiento hasta recuperar la tranquilidad.</p></article></div></div></section>
 
-    <section className="work-closing shell"><span>La diferencia está en estar</span><blockquote>Nuestra labor cobra verdadero sentido cuando aquello que durante meses fue una póliza se convierte en una <em>necesidad real.</em></blockquote><Link className="button" href="/#contacto">Cuenta con nosotros</Link></section>
+    <section className="work-closing shell"><span>La diferencia está en estar</span><blockquote>Nuestra labor cobra verdadero sentido cuando aquello que durante meses fue una póliza se convierte en una <em>necesidad real.</em></blockquote><Link className="button" href="/nuestra-promesa">Conoce nuestra promesa</Link></section>
 
     <footer><div className="shell footer-top"><Link className="brand inverse" href="/"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><p>Consultores de riesgos y seguros</p><a href="tel:+526566696738">656 669 6738</a></div><div className="shell copyright">HAMMURABI RISK | NUESTRA LABOR</div></footer>
   </main>;

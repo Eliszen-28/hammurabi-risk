@@ -13,6 +13,7 @@ import "./methodology.css";
 import "./methodology-headings.css";
 import "./risk-management.css";
 import "./our-work.css";
+import "./promise.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
