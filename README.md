@@ -1,5 +1,7 @@
 # vinext-starter
 
+Este proyecto genera artefactos independientes para el dominio principal y para GitHub Pages.
+
 A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
 Drizzle support.
