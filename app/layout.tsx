@@ -30,6 +30,7 @@ import "./cookie-consent.css";
 import "./footer-buttons.css";
 import "./floating-position.css";
 import "./address-highlight.css";
+import "./mobile-ticker.css";
 import SalesAssistant from "./SalesAssistant";
 import CookieConsent from "./CookieConsent";
 
