@@ -18,7 +18,7 @@ const stages = [
 
 export default function MethodologyPage() {
   return <main className="methodology-page">
-    <header className="nav shell"><Link className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><nav aria-label="Navegación principal"><Link href="/#servicios">Servicios</Link><Link href="/#nosotros">Nosotros</Link><Link href="/metodologia">Metodología</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="tel:+526566696738">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
+    <header className="nav shell"><Link className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><nav aria-label="Navegación principal"><Link href="/#servicios">Servicios</Link><Link href="/administracion-riesgos">Riesgos</Link><Link href="/metodologia">Metodología</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="tel:+526566696738">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
 
     <section className="method-hero shell">
       <div className="method-intro"><p className="eyebrow">Hammurabi Risk · Libro Maestro</p><h1>Comprender<br />antes de <em>proteger.</em></h1><p className="method-lead">En Hammurabi Risk entendemos que la administración de riesgos no puede depender de la intuición ni de soluciones estandarizadas.</p></div>
