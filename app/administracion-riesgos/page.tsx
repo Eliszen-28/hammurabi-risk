@@ -10,7 +10,7 @@ const scenarios = ["Accidente laboral", "Incendio", "Enfermedad de alta especial
 
 export default function RiskManagementPage() {
   return <main className="risk-management-page">
-    <header className="nav shell"><Link className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><nav aria-label="Navegación principal"><Link href="/#servicios">Servicios</Link><Link href="/administracion-riesgos">Riesgos</Link><Link href="/#experiencia">Nuestra labor</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="tel:+526566696738">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
+    <header className="nav shell"><Link className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><nav aria-label="Navegación principal"><Link href="/#servicios">Servicios</Link><Link href="/#especialistas-riesgos">Riesgos</Link><Link href="/#experiencia">Nuestra labor</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="tel:+526566696738">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
 
     <section className="risk-book-hero shell"><p className="eyebrow">Hammurabi Risk · Gestión estratégica</p><h1>La administración<br /><em>integral de riesgos.</em></h1><div className="risk-hero-bottom"><p>El riesgo no puede eliminarse. Pero sí puede <strong>comprenderse, administrarse y controlarse.</strong></p><span>↓</span></div></section>
 
