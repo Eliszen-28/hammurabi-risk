@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 850" role="img" aria-labelledby="title desc">
   <title id="title">Mapa con Latinoamérica y España resaltadas</title>
   <desc id="desc">Mapa mundial decorativo en tonos azules que destaca Latinoamérica y la ubicación de España.</desc>
-  <g fill="#263044" opacity=".72" stroke="#667080" stroke-width="2">
+  <g fill="#26385d" opacity=".88" stroke="#7380a0" stroke-width="2">
     <path d="M96 150 150 91 244 72 329 101 384 145 371 201 307 220 269 265 205 272 177 239 121 224 83 188Z"/>
     <path d="M375 75 416 52 457 65 448 96 399 108Z"/>
     <path d="M641 143 681 108 744 104 786 129 817 112 870 123 904 158 873 185 824 177 801 203 755 190 722 210 677 195 645 170Z"/>
@@ -10,7 +10,7 @@
     <path d="M1270 488 1326 451 1395 466 1436 512 1410 558 1342 570 1285 548Z"/>
     <path d="M1458 566 1475 540 1490 568 1474 606Z"/>
   </g>
-  <g fill="#3c51ec" opacity=".82" stroke="#91a0ff" stroke-width="2.5">
+  <g fill="#3c51ec" opacity="1" stroke="#b5beff" stroke-width="3">
     <path d="M231 270 278 258 318 286 326 329 352 354 331 385 305 373 288 336 255 315Z"/>
     <path d="M335 382 379 369 425 397 456 446 447 500 422 552 400 613 366 683 338 651 326 588 302 526 310 466Z"/>
     <path d="M293 328 328 326 350 347 331 376 306 366Z"/>
@@ -19,4 +19,8 @@
   <circle cx="725" cy="164" r="13" fill="#3c51ec"/>
   <circle cx="725" cy="164" r="25" fill="none" stroke="#8290ff" stroke-width="3" opacity=".7"/>
   <circle cx="393" cy="488" r="10" fill="#9ca7ff"/>
+  <g fill="#fff" font-family="Arial, sans-serif" font-size="25" font-weight="700">
+    <text x="748" y="154">España</text>
+    <text x="405" y="535">Latinoamérica</text>
+  </g>
 </svg>
