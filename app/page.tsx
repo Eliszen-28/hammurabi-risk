@@ -1,4 +1,5 @@
 import Link from "next/link";
+export const dynamic = "force-static";
 
 const services = [
   ["01","Personas","personas","Gastos Médicos, Vida, Casa Habitación y Automóviles.","Tu vida cambia. Tu protección puede acompañarte."],
