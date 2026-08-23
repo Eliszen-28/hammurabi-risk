@@ -10,9 +10,14 @@ export default function SalesAssistant() {
 
   useEffect(() => {
     const update = () => setShowTop(window.scrollY > 500);
+    const openAssistant = () => setOpen(true);
     update();
     window.addEventListener("scroll", update, { passive: true });
-    return () => window.removeEventListener("scroll", update);
+    window.addEventListener("open-sales-assistant", openAssistant);
+    return () => {
+      window.removeEventListener("scroll", update);
+      window.removeEventListener("open-sales-assistant", openAssistant);
+    };
   }, []);
 
   function sendToWhatsApp(event: FormEvent<HTMLFormElement>) {

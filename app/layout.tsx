@@ -36,6 +36,7 @@ import "./mobile-map-actions.css";
 import "./remove-address-panel.css";
 import "./map-app-logos.css";
 import "./brand-slogan.css";
+import "./sales-inline-trigger.css";
 import SalesAssistant from "./SalesAssistant";
 import CookieConsent from "./CookieConsent";
 
