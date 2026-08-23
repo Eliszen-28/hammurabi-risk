@@ -27,8 +27,8 @@ export default function CookieConsent() {
       <p>Usamos almacenamiento esencial para recordar tus preferencias. Las cookies no esenciales solo se habilitarán con tu autorización. Consulta nuestro <a href="/aviso-privacidad#cookies">aviso de privacidad y cookies</a>.</p>
     </div>
     <div className="cookie-actions">
-      <button type="button" className="cookie-secondary" onClick={() => save("essential")}>Solo esenciales</button>
-      <button type="button" className="cookie-primary" onClick={() => save("accepted")}>Aceptar todas</button>
+      <button type="button" className="cookie-secondary" onClick={() => save("essential")}><span aria-hidden="true">○</span> Solo esenciales</button>
+      <button type="button" className="cookie-primary" onClick={() => save("accepted")}><span aria-hidden="true">✓</span> Aceptar todas</button>
     </div>
   </aside>;
 }
