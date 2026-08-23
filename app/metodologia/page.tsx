@@ -21,7 +21,7 @@ export default function MethodologyPage() {
     <header className="nav shell"><Link className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><nav aria-label="Navegación principal"><Link href="/#servicios">Servicios</Link><Link href="/administracion-riesgos">Riesgos</Link><Link href="/metodologia">Metodología</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="tel:+526566696738">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
 
     <section className="method-hero shell">
-      <div className="method-intro"><p className="eyebrow">Hammurabi Risk · Libro Maestro</p><h1>Comprender<br />antes de <em>proteger.</em></h1><p className="method-lead">En Hammurabi Risk entendemos que la administración de riesgos no puede depender de la intuición ni de soluciones estandarizadas.</p></div>
+      <div className="method-intro"><p className="eyebrow">Hammurabi Risk · Libro Maestro</p><h1>Nuestra<br /><em>metodología.</em></h1><p className="method-principle">La confianza no se improvisa.<br /><strong>Se construye con procesos.</strong></p><p className="method-lead">En Hammurabi Risk entendemos que la administración de riesgos no puede depender de la intuición ni de soluciones estandarizadas.</p></div>
       <div className="method-mascot"><span className="method-orbit">7 etapas</span><img src="/mascota-camina.png" alt="Mascota de Hammurabi Risk acompañando nuestra metodología" /><p>Análisis · Prevención · Acompañamiento</p></div>
     </section>
 
