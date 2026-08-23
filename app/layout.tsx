@@ -19,6 +19,8 @@ import "./incident-mobile-fix.css";
 import "./incident-heading-size.css";
 import "./contact-actions.css";
 import "./footer-socials.css";
+import "./sales-assistant.css";
+import SalesAssistant from "./SalesAssistant";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -62,6 +64,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <SalesAssistant />
       </body>
     </html>
   );
