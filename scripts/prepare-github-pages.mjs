@@ -19,7 +19,7 @@ async function visit(directory) {
         .replaceAll('\\"href\\":\\"/', `\\"href\\":\\"${prefix}/`)
         .replaceAll('\\"src\\":\\"/', `\\"src\\":\\"${prefix}/`)
         .replaceAll('[\\"/', `[\\"${prefix}/`)
-        .replaceAll(`${prefix}/${prefix}/`, `${prefix}/`);
+        .replaceAll(`${prefix}${prefix}/`, `${prefix}/`);
       if (output !== source) await writeFile(path, output);
     }
   }
