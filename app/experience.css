@@ -4,3 +4,6 @@
 
 .broker-column{display:flex;flex-direction:column;align-items:center;min-width:0}.broker-column .broker-visual{width:100%}.broker-column .broker-badge{position:static;margin-top:18px;transform:none;background:#fff;color:#223762;border:1px solid #d7dde5;border-radius:999px;padding:13px 22px;font-weight:900;box-shadow:0 12px 30px #22376220}
 @media(max-width:600px){.broker-column .broker-badge{margin-top:14px;font-size:16px}}
+
+.experience-feature h3,.experience-secondary h3{font-size:clamp(30px,3vw,40px);line-height:1.05;letter-spacing:-1.4px;font-weight:900;margin:16px 0 12px}.experience-feature span,.experience-secondary span{display:block;font-size:18px;line-height:1;font-weight:900}.experience-secondary article{display:flex;flex-direction:column;justify-content:flex-start;min-height:230px}
+@media(max-width:600px){.experience-feature h3,.experience-secondary h3{font-size:32px}}
