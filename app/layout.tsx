@@ -15,6 +15,7 @@ import "./risk-management.css";
 import "./our-work.css";
 import "./promise.css";
 import "./incidents-dynamic.css";
+import "./incident-mobile-fix.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
