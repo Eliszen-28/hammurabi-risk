@@ -25,6 +25,7 @@ import "./additional-pages.css";
 import "./incidents-clean.css";
 import "./additional-pages-harmony.css";
 import "./interaction-cleanup.css";
+import "./risk-map.css";
 import SalesAssistant from "./SalesAssistant";
 
 const geistSans = Geist({
