@@ -31,6 +31,7 @@ import "./footer-buttons.css";
 import "./floating-position.css";
 import "./address-highlight.css";
 import "./mobile-ticker.css";
+import "./map-location.css";
 import SalesAssistant from "./SalesAssistant";
 import CookieConsent from "./CookieConsent";
 
