@@ -31,7 +31,7 @@ export default function MethodologyPage() {
       <div className="story-columns"><p>Por esa razón desarrollamos una metodología de trabajo basada en el análisis, la prevención y el acompañamiento permanente. No creemos en las soluciones genéricas. Creemos en comprender antes de recomendar.</p><p>Nuestra metodología nos permite ofrecer estrategias de protección alineadas con la realidad de cada cliente, garantizando que cada decisión responda a un objetivo claro: reducir la incertidumbre y fortalecer su capacidad de enfrentar cualquier eventualidad.</p></div>
     </section>
 
-    <section className="method-stages"><div className="shell"><div className="stages-title"><p className="eyebrow light">Nuestro proceso</p><h2>Nuestra metodología<br />en siete etapas.</h2></div><div className="stage-list">{stages.map(([number,title,text])=><article key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p><b aria-hidden="true">→</b></article>)}</div></div></section>
+    <section className="method-stages"><div className="shell"><div className="stages-title"><p className="eyebrow light">Nuestro proceso</p><h2>Nuestra metodología<br />en siete etapas.</h2></div><div className="stage-list">{stages.map(([number,title,text])=><article key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p></article>)}</div></div></section>
 
     <section className="method-manifesto shell"><span>La diferencia Hammurabi</span><blockquote>Las pólizas pueden adquirirse en muchos lugares. La diferencia está en contar con una metodología que transforme un seguro en una verdadera estrategia de <em>protección.</em></blockquote><a className="button" href="/#contacto">Diseñemos tu estrategia</a></section>
 
