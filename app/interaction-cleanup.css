@@ -24,3 +24,8 @@
   border-color: #d7dde5;
   box-shadow: none;
 }
+
+.region-highlight {
+  color: #8190ff;
+  font-weight: 900;
+}
