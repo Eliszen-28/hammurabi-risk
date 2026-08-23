@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const root = fileURLToPath(new URL("../dist/client/", import.meta.url));
 const prefix = "/hammurabi-risk";
-const textExtensions = new Set([".html", ".rsc", ".json"]);
+const textExtensions = new Set([".html", ".rsc", ".json", ".css"]);
 
 async function visit(directory) {
   for (const entry of await readdir(directory, { withFileTypes: true })) {
@@ -15,6 +15,8 @@ async function visit(directory) {
       const output = source
         .replaceAll('href="/', `href="${prefix}/`)
         .replaceAll('src="/', `src="${prefix}/`)
+        .replaceAll('url("/', `url("${prefix}/`)
+        .replaceAll('url(/', `url(${prefix}/`)
         .replaceAll('content="/og.png"', `content="${prefix}/og.png"`)
         .replaceAll('\\"href\\":\\"/', `\\"href\\":\\"${prefix}/`)
         .replaceAll('\\"src\\":\\"/', `\\"src\\":\\"${prefix}/`)
