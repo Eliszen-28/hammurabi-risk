@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import SiteFooter from "../SiteFooter";
 export const dynamic = "force-static";
 
@@ -12,7 +11,7 @@ const moments = ["Un diagnóstico inesperado", "Un accidente", "Una pérdida pat
 
 export default function OurWorkPage() {
   return <main className="our-work-page">
-    <header className="nav shell"><a className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></a><nav aria-label="Navegación principal"><Link href="/#servicios">Servicios</Link><Link href="/#especialistas-riesgos">Riesgos</Link><Link href="/#experiencia">Nuestra labor</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
+    <header className="nav shell"><a className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></a><nav aria-label="Navegación principal"><a href="/#servicios">Servicios</a><a href="/#especialistas-riesgos">Riesgos</a><a href="/#experiencia">Nuestra labor</a><a href="/#contacto">Contacto</a></nav><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
 
     <section className="work-hero shell"><p className="eyebrow">Acompañamiento Hammurabi</p><h1>Cuando nuestra labor<br /><em>cobra sentido.</em></h1><p className="work-principle">Es en los momentos más difíciles donde demostramos nuestro verdadero valor.</p></section>
 
@@ -24,9 +23,9 @@ export default function OurWorkPage() {
 
     <section className="work-responsibility shell"><div><p className="eyebrow">Responsabilidad profesional</p><h2>Acompañar no es prometer.<br /><em>Es responder.</em></h2></div><div className="responsibility-copy"><p>Acompañar tampoco significa prometer que todo será procedente. Defender los intereses de nuestros clientes significa hacerlo con argumentos, conocimiento, objetividad y responsabilidad.</p><p>No medimos nuestro trabajo únicamente por montos recuperados. También lo medimos por problemas resueltos, llamadas atendidas, incertidumbre reducida y decisiones tomadas con mayor claridad.</p></div></section>
 
-    <section className="work-presence"><div className="shell"><p className="eyebrow light">Nuestra forma de estar</p><h2>Presentes en cada momento.</h2><div className="presence-grid"><article><span>ANTES</span><h3>Prevenir</h3><p>Analizamos y construimos la protección.</p></article><article><span>DURANTE</span><h3>Responder</h3><p>Actuamos con claridad cuando surge el problema.</p></article><article><span>DESPUÉS</span><h3>Acompañar</h3><p>Damos seguimiento hasta recuperar la tranquilidad.</p></article></div></div></section>
+    <section className="work-presence"><div className="shell"><p className="eyebrow light">Nuestra forma de estar</p><h2>Presentes en cada momento.</h2><div className="presence-grid"><article><span>Antes</span><h3>Prevenir</h3><p>Analizamos y construimos la protección.</p></article><article><span>Durante</span><h3>Responder</h3><p>Actuamos con claridad cuando surge el problema.</p></article><article><span>Después</span><h3>Acompañar</h3><p>Damos seguimiento hasta recuperar la tranquilidad.</p></article></div></div></section>
 
-    <section className="work-closing shell"><span>La diferencia está en estar</span><blockquote>Nuestra labor cobra verdadero sentido cuando aquello que durante meses fue una póliza se convierte en una <em>necesidad real.</em></blockquote><Link className="button" href="/nuestra-promesa">Conoce nuestra promesa</Link></section>
+    <section className="work-closing shell"><span>La diferencia está en estar</span><blockquote>Nuestra labor cobra verdadero sentido cuando aquello que durante meses fue una póliza se convierte en una <em>necesidad real.</em></blockquote><a className="button" href="/nuestra-promesa">Conoce nuestra promesa</a></section>
 
     <SiteFooter />
   </main>;

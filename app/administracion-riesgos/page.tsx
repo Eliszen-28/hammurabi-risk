@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import SiteFooter from "../SiteFooter";
 export const dynamic = "force-static";
 
@@ -12,7 +11,7 @@ const scenarios = ["Accidente laboral", "Incendio", "Enfermedad de alta especial
 
 export default function RiskManagementPage() {
   return <main className="risk-management-page">
-    <header className="nav shell"><a className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></a><nav aria-label="Navegación principal"><Link href="/#servicios">Servicios</Link><Link href="/#especialistas-riesgos">Riesgos</Link><Link href="/#experiencia">Nuestra labor</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
+    <header className="nav shell"><a className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></a><nav aria-label="Navegación principal"><a href="/#servicios">Servicios</a><a href="/#especialistas-riesgos">Riesgos</a><a href="/#experiencia">Nuestra labor</a><a href="/#contacto">Contacto</a></nav><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
 
     <section className="risk-book-hero shell"><p className="eyebrow">Hammurabi Risk · Gestión estratégica</p><h1>La administración<br /><em>integral de riesgos.</em></h1><div className="risk-hero-bottom"><p>El riesgo no puede eliminarse. Pero sí puede <strong>comprenderse, administrarse y controlarse.</strong></p><span>↓</span></div></section>
 
@@ -22,7 +21,7 @@ export default function RiskManagementPage() {
 
     <section className="risk-truth shell"><div className="risk-truth-art"><div className="risk-ring"></div><img src="/mascota-perfil.png" alt="Mascota de Hammurabi Risk observando y anticipando riesgos" /><span>Preparación</span></div><div className="risk-truth-copy"><p className="eyebrow">La verdadera exposición</p><h2>El riesgo no es que ocurra.<br /><em>Es no estar preparado.</em></h2><p>En Hammurabi Risk entendemos que la administración de riesgos va mucho más allá de contratar una póliza de seguro. Consiste en identificar amenazas, evaluar su impacto, implementar medidas preventivas y establecer mecanismos que reduzcan sus consecuencias.</p><p>El seguro representa una herramienta fundamental dentro de ese proceso, pero nunca constituye la estrategia completa.</p></div></section>
 
-    <section className="risk-program"><div className="shell"><div><p className="eyebrow light">Nuestra responsabilidad</p><h2>Protección sólida.<br />Flexible. Evolutiva.</h2></div><div className="risk-program-copy"><p>Nuestra responsabilidad consiste en ayudar a nuestros clientes a comprender su exposición al riesgo y acompañarlos en la construcción de un programa de protección sólido, flexible y preparado para evolucionar junto con sus necesidades.</p><p>Porque proteger un patrimonio requiere mucho más que transferir un riesgo a una aseguradora. Requiere <strong>conocimiento, planeación y una visión de largo plazo.</strong></p><Link className="button white" href="/#contacto">Hablar con un consultor</Link></div></div></section>
+    <section className="risk-program"><div className="shell"><div><p className="eyebrow light">Nuestra responsabilidad</p><h2>Protección sólida.<br />Flexible. Evolutiva.</h2></div><div className="risk-program-copy"><p>Nuestra responsabilidad consiste en ayudar a nuestros clientes a comprender su exposición al riesgo y acompañarlos en la construcción de un programa de protección sólido, flexible y preparado para evolucionar junto con sus necesidades.</p><p>Porque proteger un patrimonio requiere mucho más que transferir un riesgo a una aseguradora. Requiere <strong>conocimiento, planeación y una visión de largo plazo.</strong></p><a className="button white" href="/#contacto">Hablar con un consultor</a></div></div></section>
 
     <section className="risk-closing shell"><span>Una visión de largo plazo</span><blockquote>La administración de riesgos no consiste en evitar que ocurran los problemas. Consiste en estar preparados para que ninguno de ellos <em>detenga el futuro</em> de quienes confían en nosotros.</blockquote></section>
 

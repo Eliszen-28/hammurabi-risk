@@ -23,6 +23,7 @@ import "./sales-assistant.css";
 import "./sales-mascot.css";
 import "./additional-pages.css";
 import "./incidents-clean.css";
+import "./additional-pages-harmony.css";
 import SalesAssistant from "./SalesAssistant";
 
 const geistSans = Geist({

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import SiteFooter from "../SiteFooter";
 export const dynamic = "force-static";
 
@@ -20,10 +19,10 @@ const stages = [
 
 export default function MethodologyPage() {
   return <main className="methodology-page">
-    <header className="nav shell"><a className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></a><nav aria-label="Navegación principal"><Link href="/#servicios">Servicios</Link><Link href="/#especialistas-riesgos">Riesgos</Link><Link href="/#experiencia">Nuestra labor</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
+    <header className="nav shell"><a className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></a><nav aria-label="Navegación principal"><a href="/#servicios">Servicios</a><a href="/#especialistas-riesgos">Riesgos</a><a href="/#experiencia">Nuestra labor</a><a href="/#contacto">Contacto</a></nav><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
 
     <section className="method-hero shell">
-      <div className="method-intro"><p className="eyebrow">Hammurabi Risk · Libro Maestro</p><h1>Nuestra<br /><em>metodología.</em></h1><p className="method-principle">La confianza no se improvisa.<br /><strong>Se construye con procesos.</strong></p><p className="method-lead">En Hammurabi Risk entendemos que la administración de riesgos no puede depender de la intuición ni de soluciones estandarizadas.</p></div>
+      <div className="method-intro"><p className="eyebrow">Hammurabi Risk · Protección con método</p><h1>Nuestra<br /><em>metodología.</em></h1><p className="method-principle">La confianza no se improvisa.<br /><strong>Se construye con procesos.</strong></p><p className="method-lead">En Hammurabi Risk entendemos que la administración de riesgos no puede depender de la intuición ni de soluciones estandarizadas.</p></div>
       <div className="method-mascot"><span className="method-orbit">7 etapas</span><img src="/mascota-camina.png" alt="Mascota de Hammurabi Risk acompañando nuestra metodología" /><p>Análisis · Prevención · Acompañamiento</p></div>
     </section>
 
@@ -34,7 +33,7 @@ export default function MethodologyPage() {
 
     <section className="method-stages"><div className="shell"><div className="stages-title"><p className="eyebrow light">Nuestro proceso</p><h2>Nuestra metodología<br />en siete etapas.</h2></div><div className="stage-list">{stages.map(([number,title,text])=><article key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p><b aria-hidden="true">→</b></article>)}</div></div></section>
 
-    <section className="method-manifesto shell"><span>La diferencia Hammurabi</span><blockquote>Las pólizas pueden adquirirse en muchos lugares. La diferencia está en contar con una metodología que transforme un seguro en una verdadera estrategia de <em>protección.</em></blockquote><Link className="button" href="/#contacto">Diseñemos tu estrategia</Link></section>
+    <section className="method-manifesto shell"><span>La diferencia Hammurabi</span><blockquote>Las pólizas pueden adquirirse en muchos lugares. La diferencia está en contar con una metodología que transforme un seguro en una verdadera estrategia de <em>protección.</em></blockquote><a className="button" href="/#contacto">Diseñemos tu estrategia</a></section>
 
     <SiteFooter />
   </main>;

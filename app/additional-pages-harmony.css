@@ -1,0 +1,47 @@
+/* Armonización editorial: misma voz tipográfica que la página principal. */
+.methodology-page .method-intro h1,
+.risk-management-page .risk-book-hero h1,
+.our-work-page .work-hero h1,
+.promise-page .promise-hero h1 {
+  text-transform: none;
+}
+
+.methodology-page .method-principle,
+.our-work-page .work-principle,
+.our-work-page .work-human blockquote,
+.promise-page .promise-principle {
+  font-style: normal;
+}
+
+.methodology-page .method-manifesto > span,
+.risk-management-page .risk-closing > span,
+.our-work-page .work-closing > span,
+.promise-page .promise-final > p {
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.methodology-page .eyebrow,
+.risk-management-page .eyebrow,
+.our-work-page .eyebrow,
+.promise-page .eyebrow {
+  text-transform: none;
+  letter-spacing: .5px;
+}
+
+.methodology-page h1,
+.risk-management-page h1,
+.our-work-page h1,
+.promise-page h1 {
+  line-height: .9;
+}
+
+@media (max-width: 600px) {
+  .methodology-page h1,
+  .risk-management-page h1,
+  .our-work-page h1,
+  .promise-page h1 {
+    line-height: .96;
+    letter-spacing: -2.5px;
+  }
+}
