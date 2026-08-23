@@ -1,0 +1,2 @@
+.floating-actions{bottom:max(96px,calc(env(safe-area-inset-bottom) + 78px))}
+@media(max-width:600px){.floating-actions{bottom:max(86px,calc(env(safe-area-inset-bottom) + 70px))}}

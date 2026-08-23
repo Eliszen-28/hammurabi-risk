@@ -28,6 +28,7 @@ import "./interaction-cleanup.css";
 import "./legal.css";
 import "./cookie-consent.css";
 import "./footer-buttons.css";
+import "./floating-position.css";
 import SalesAssistant from "./SalesAssistant";
 import CookieConsent from "./CookieConsent";
 
