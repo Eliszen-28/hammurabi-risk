@@ -16,7 +16,7 @@ const promises = [
 
 export default function PromisePage() {
   return <main className="promise-page">
-    <header className="nav shell"><Link className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><nav aria-label="Navegación principal"><Link href="/administracion-riesgos">Riesgos</Link><Link href="/metodologia">Metodología</Link><Link href="/nuestra-labor">Nuestra labor</Link><Link href="/nuestra-promesa">Promesa</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="tel:+526566696738">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
+    <header className="nav shell"><Link className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><nav aria-label="Navegación principal"><Link href="/administracion-riesgos">Riesgos</Link><Link href="/#experiencia">Nuestra labor</Link><Link href="/nuestra-promesa">Promesa</Link><Link href="/#contacto">Contacto</Link></nav><div className="header-actions"><a className="header-claim" href="tel:+526566696738">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
 
     <section className="promise-hero shell"><p className="eyebrow">Hammurabi Risk · Libro Maestro 16</p><h1>Una promesa que<br /><em>trasciende las pólizas.</em></h1><p className="promise-principle">Podemos proteger muchas cosas. Pero existe una que debemos ganar todos los días: <strong>tu confianza.</strong></p></section>
 
