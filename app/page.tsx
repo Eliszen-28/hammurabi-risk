@@ -6,7 +6,7 @@ const services = [
   ["03","Fianzas","fianzas","Fidelidad, administrativas, judiciales, crédito y especiales.","Respaldo sólido para cumplir cada compromiso."],
   ["04","Gestión de riesgos","riesgos","Riesgos operacionales, laborales, estratégicos y otros.","Anticipar, decidir y avanzar con mayor certeza."]
 ];
-function Header(){return <header className="nav shell"><Link className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><nav aria-label="Navegación principal"><a href="#servicios">Servicios</a><Link href="/administracion-riesgos">Riesgos</Link><Link href="/metodologia">Metodología</Link><a href="#contacto">Contacto</a></nav><div className="header-actions"><a className="header-claim" href="tel:+526566696738">Reportar siniestro</a><a className="button small" href="#contacto">Cotiza ahora</a></div></header>}
+function Header(){return <header className="nav shell"><Link className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></Link><nav aria-label="Navegación principal"><a href="#servicios">Servicios</a><Link href="/administracion-riesgos">Riesgos</Link><Link href="/metodologia">Metodología</Link><Link href="/nuestra-labor">Nuestra labor</Link><a href="#contacto">Contacto</a></nav><div className="header-actions"><a className="header-claim" href="tel:+526566696738">Reportar siniestro</a><a className="button small" href="#contacto">Cotiza ahora</a></div></header>}
 export default function Home() {
   return <main>
     <Header />
