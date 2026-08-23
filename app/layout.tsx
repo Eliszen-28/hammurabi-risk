@@ -21,6 +21,7 @@ import "./contact-actions.css";
 import "./footer-socials.css";
 import "./sales-assistant.css";
 import "./sales-mascot.css";
+import "./additional-pages.css";
 import SalesAssistant from "./SalesAssistant";
 
 const geistSans = Geist({
