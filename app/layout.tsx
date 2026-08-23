@@ -18,6 +18,7 @@ import "./incidents-dynamic.css";
 import "./incident-mobile-fix.css";
 import "./incident-heading-size.css";
 import "./contact-actions.css";
+import "./footer-socials.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
