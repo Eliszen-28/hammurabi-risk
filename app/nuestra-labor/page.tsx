@@ -11,7 +11,7 @@ const moments = ["Un diagnóstico inesperado", "Un accidente", "Una pérdida pat
 
 export default function OurWorkPage() {
   return <main className="our-work-page">
-    <header className="nav shell"><a className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></a><nav aria-label="Navegación principal"><a href="/#servicios">Servicios</a><a href="/#especialistas-riesgos">Riesgos</a><a href="/#experiencia">Nuestra labor</a><a href="/#contacto">Contacto</a></nav><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
+    <header className="nav shell"><a className="brand" href="/" aria-label="Hammurabi Risk, inicio"><img src="/isotipo.jpg" alt="" /><span>Hammurabi Risk</span></a><a className="back-link" href="/">← Volver al inicio</a><div className="header-actions"><a className="header-claim" href="https://wa.me/526566696738?text=Hola%2C%20necesito%20reportar%20un%20siniestro" target="_blank" rel="noreferrer">Reportar siniestro</a><a className="button small" href="/#contacto">Cotiza ahora</a></div></header>
 
     <section className="work-hero shell"><p className="eyebrow">Acompañamiento Hammurabi</p><h1>Cuando nuestra labor<br /><em>cobra sentido.</em></h1><p className="work-principle">Es en los momentos más difíciles donde demostramos nuestro verdadero valor.</p></section>
 
