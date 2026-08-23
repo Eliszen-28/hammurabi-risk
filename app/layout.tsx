@@ -25,7 +25,10 @@ import "./additional-pages.css";
 import "./incidents-clean.css";
 import "./additional-pages-harmony.css";
 import "./interaction-cleanup.css";
+import "./legal.css";
+import "./cookie-consent.css";
 import SalesAssistant from "./SalesAssistant";
+import CookieConsent from "./CookieConsent";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -70,6 +73,7 @@ export default function RootLayout({
       >
         {children}
         <SalesAssistant />
+        <CookieConsent />
       </body>
     </html>
   );
