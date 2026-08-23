@@ -1,0 +1,26 @@
+/* Los bloques informativos no deben aparentar que son controles. */
+.stage-list article,
+.scenario-grid article,
+.alliance-logo {
+  transition: none;
+}
+
+.stage-list article:hover {
+  background: transparent;
+  padding-inline: 10px;
+}
+
+.scenario-grid article:hover {
+  background: #050505;
+  transform: none;
+}
+
+.scenario-grid article:last-child:hover {
+  background: #223762;
+}
+
+.alliance-logo:hover {
+  transform: none;
+  border-color: #d7dde5;
+  box-shadow: none;
+}

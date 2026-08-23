@@ -24,6 +24,7 @@ import "./sales-mascot.css";
 import "./additional-pages.css";
 import "./incidents-clean.css";
 import "./additional-pages-harmony.css";
+import "./interaction-cleanup.css";
 import SalesAssistant from "./SalesAssistant";
 
 const geistSans = Geist({
