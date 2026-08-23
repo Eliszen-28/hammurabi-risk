@@ -40,7 +40,7 @@ export default function SalesAssistant() {
     {open && <div className="sales-overlay" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setOpen(false)}>
       <section className="sales-dialog" role="dialog" aria-modal="true" aria-labelledby="sales-title">
         <button className="sales-close" type="button" onClick={() => setOpen(false)} aria-label="Cerrar asistente">×</button>
-        <div className="sales-intro"><span className="sales-mark">H</span><p>Asesor Hammurabi</p></div>
+        <div className="sales-intro"><span className="sales-mark"><img src="/mascota-quienes-somos.png" alt="Mascota de Hammurabi Risk" /></span><p>Asesor Hammurabi</p></div>
         <h2 id="sales-title">Cuéntanos qué necesitas.</h2>
         <p className="sales-subtitle">Déjanos tus datos y abriremos WhatsApp con tu solicitud lista para enviarse.</p>
         <form onSubmit={sendToWhatsApp}>
