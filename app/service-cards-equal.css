@@ -4,3 +4,19 @@
   border: 2px solid #3d52ec;
   color: #223762;
 }
+
+.service-card:hover,
+.service-card:focus-visible,
+.service-card:active,
+.service-card:nth-child(2):hover,
+.service-card:nth-child(2):focus-visible,
+.service-card:nth-child(2):active {
+  background: #3d52ec;
+  border-color: #3d52ec;
+  color: #ffffff;
+}
+
+.service-card:focus-visible {
+  outline: 3px solid #223762;
+  outline-offset: 4px;
+}
