@@ -1,7 +1,7 @@
 .service-card,
 .service-card:nth-child(2) {
   background: #f4f6f8;
-  border: 2px solid #3d52ec;
+  border: none;
   color: #223762;
 }
 
@@ -12,7 +12,6 @@
 .service-card:nth-child(2):focus-visible,
 .service-card:nth-child(2):active {
   background: #3d52ec;
-  border-color: #3d52ec;
   color: #ffffff;
 }
 
