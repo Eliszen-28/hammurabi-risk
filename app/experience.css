@@ -7,3 +7,29 @@
 
 .experience-feature h3,.experience-secondary h3{font-size:clamp(30px,3vw,40px);line-height:1.05;letter-spacing:-1.4px;font-weight:900;margin:16px 0 12px}.experience-feature span,.experience-secondary span{display:block;font-size:18px;line-height:1;font-weight:900}.experience-secondary article{display:flex;flex-direction:column;justify-content:flex-start;min-height:230px}
 @media(max-width:600px){.experience-feature h3,.experience-secondary h3{font-size:32px}}
+
+/* Paired color system: equal visual weight without dark backgrounds. */
+.experience-feature,
+.experience-secondary article {
+  border: 0;
+  border-radius: 24px;
+  color: #223762;
+}
+
+.experience-feature:first-child,
+.experience-secondary article:first-child {
+  background: #f3f5ff;
+}
+
+.experience-feature:nth-child(2),
+.experience-secondary article:nth-child(2) {
+  background: #d2dbe6;
+}
+
+.experience-secondary h3 {
+  color: #223762;
+}
+
+.experience-secondary p {
+  color: #566071;
+}
