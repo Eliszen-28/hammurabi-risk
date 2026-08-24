@@ -1,0 +1,20 @@
+.incidents-dynamic{background:#d2dbe6;color:#223762;padding-block:112px}
+.incidents-dynamic:before{display:none}
+.incidents-dynamic .incident-grid{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:100px;align-items:start}
+.incidents-dynamic .eyebrow{color:#3c51ec;margin-bottom:22px}
+.incident-message h2{display:block;font-size:clamp(45px,4.8vw,68px);line-height:.98;letter-spacing:-3px;margin:0 0 34px;color:#223762}
+.incident-message h2 span,.incident-message h2 em{display:block;margin:0;padding:0;background:none;width:auto;max-width:100%;transform:none}
+.incident-message h2 span:nth-child(2){margin:0;color:#3c51ec}
+.incident-message h2 em{font-style:normal;color:#223762}
+.incident-message>p:not(.eyebrow){max-width:580px;margin:0;font-size:17px;line-height:1.7;color:#48566a}
+.incident-wordmark{margin-top:38px;padding-top:22px;border-top:1px solid #aeb9c8;color:#223762;gap:12px;font-size:14px}
+.incident-wordmark i{color:#3c51ec}
+.keys-dynamic{padding:0;background:transparent;border-radius:0;box-shadow:none;transform:none}
+.keys-dynamic .keys-label{margin:0;padding:0 0 18px;color:#3c51ec;font-size:14px;font-weight:900}
+.keys-dynamic h3{margin:0 0 30px;font-size:clamp(38px,4vw,54px);line-height:1;letter-spacing:-2px;color:#223762}
+.keys-dynamic>p:not(.keys-label){display:grid;grid-template-columns:52px 1fr;align-items:center;margin:0;padding:19px 0;border-top:1px solid #aeb9c8}
+.keys-dynamic>p:last-child{border-bottom:1px solid #aeb9c8}
+.keys-dynamic>p b{font-size:15px;color:#3c51ec}
+.keys-dynamic>p span{font-size:17px;font-weight:850;color:#223762}
+@media(max-width:850px){.incidents-dynamic{padding-block:85px}.incidents-dynamic .incident-grid{grid-template-columns:1fr;gap:64px}.incident-message h2{font-size:clamp(44px,8vw,62px);max-width:680px}.incident-message>p:not(.eyebrow){max-width:680px}}
+@media(max-width:560px){.incidents-dynamic{padding-block:70px}.incidents-dynamic .incident-grid{gap:52px}.incident-message h2{font-size:39px;line-height:1;letter-spacing:-2px}.incident-message h2 em{padding:0;line-height:1}.incident-wordmark{font-size:13px;letter-spacing:0}.keys-dynamic{padding:0;border-radius:0}.keys-dynamic h3{font-size:37px}.keys-dynamic>p:not(.keys-label){grid-template-columns:44px 1fr;padding:17px 0}.keys-dynamic>p span{font-size:16px}}
