@@ -1,0 +1,13 @@
+.risk-detail{background:#75829d;color:#fff}
+.risk-detail .eyebrow.light{color:#223762}
+.risk-detail h2{color:#fff}
+.risk-head>p{color:#eef2f6;font-size:17px}
+.region-highlight{display:inline-block;color:#223762;background:#ffffffa8;border-radius:6px;padding:0 .3em;font-size:1.08em;font-weight:950;letter-spacing:-.25px}
+.risk-steps{gap:0;background:transparent;border-top:1px solid #ffffff65;margin-top:70px}
+.risk-steps article{background:transparent;min-height:275px;border-right:1px solid #ffffff55;padding:28px}
+.risk-steps article:last-child{border-right:0}
+.risk-steps b{color:#223762;font-size:17px}
+.risk-steps h3{color:#fff}
+.risk-steps p{color:#eef2f6}
+@media(max-width:850px){.risk-steps article:nth-child(2){border-right:0}.risk-steps article:nth-child(-n+2){border-bottom:1px solid #ffffff55}}
+@media(max-width:560px){.risk-head{gap:20px}.risk-steps{margin-top:48px}.risk-steps article{min-height:0;border-right:0;border-bottom:1px solid #ffffff55;padding:28px 4px}.risk-steps article:nth-child(-n+2){border-bottom:1px solid #ffffff55}.risk-steps article:last-child{border-bottom:0}.region-highlight{font-size:1.04em}}
