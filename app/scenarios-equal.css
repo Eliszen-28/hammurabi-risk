@@ -1,0 +1,10 @@
+.risk-scenarios{background:#d2dbe6;color:#223762}
+.risk-scenarios .eyebrow.light{color:#3c51ec}
+.risk-scenarios h2{color:#223762}
+.scenario-grid{display:flex;flex-wrap:wrap;gap:14px;background:transparent}
+.scenario-grid article,.scenario-grid article:last-child{flex:0 1 calc(25% - 10.5px);grid-column:auto;min-height:220px;padding:26px;border-radius:22px;background:#fff;color:#223762}
+.scenario-grid article:hover,.scenario-grid article:last-child:hover{background:#fff;transform:none}
+.scenario-grid span{color:#75829d}
+.scenario-grid h3{color:#223762}
+@media(max-width:900px){.scenario-grid article,.scenario-grid article:last-child{flex-basis:calc(50% - 7px)}}
+@media(max-width:600px){.scenario-grid{gap:12px}.scenario-grid article,.scenario-grid article:last-child{flex-basis:100%;min-height:160px}}
