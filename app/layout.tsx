@@ -40,6 +40,7 @@ import "./sales-inline-trigger.css";
 import "./incidents-elegant.css";
 import "./risk-section-brand.css";
 import "./scenarios-equal.css";
+import "./service-cards-equal.css";
 import SalesAssistant from "./SalesAssistant";
 import CookieConsent from "./CookieConsent";
 
