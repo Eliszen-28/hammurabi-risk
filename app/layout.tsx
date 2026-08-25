@@ -81,13 +81,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const assetBase = process.env.GITHUB_PAGES === "true" ? "/hammurabi-risk" : "";
+
   return (
     <html lang="es">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <SalesAssistant />
+        <SalesAssistant assetBase={assetBase} />
         <CookieConsent />
       </body>
     </html>

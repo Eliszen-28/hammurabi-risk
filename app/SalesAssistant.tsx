@@ -4,7 +4,7 @@ import { FormEvent, useEffect, useState } from "react";
 
 const ATTENTION_WHATSAPP = "526561423871";
 
-export default function SalesAssistant() {
+export default function SalesAssistant({ assetBase = "" }: { assetBase?: string }) {
   const [open, setOpen] = useState(false);
   const [showTop, setShowTop] = useState(false);
 
@@ -45,7 +45,7 @@ export default function SalesAssistant() {
     {open && <div className="sales-overlay" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setOpen(false)}>
       <section className="sales-dialog" role="dialog" aria-modal="true" aria-labelledby="sales-title">
         <button className="sales-close" type="button" onClick={() => setOpen(false)} aria-label="Cerrar asistente">×</button>
-        <div className="sales-intro"><span className="sales-mark"><img src="/mascota-quienes-somos.png" alt="Mascota de Hammurabi Risk" /></span><p>Asesor Hammurabi</p></div>
+        <div className="sales-intro"><span className="sales-mark"><img src={`${assetBase}/mascota-quienes-somos.png`} alt="Mascota de Hammurabi Risk" /></span><p>Asesor Hammurabi</p></div>
         <h2 id="sales-title">Cuéntanos qué necesitas.</h2>
         <p className="sales-subtitle">Déjanos tus datos y abriremos WhatsApp con tu solicitud lista para enviarse.</p>
         <form onSubmit={sendToWhatsApp}>
@@ -56,7 +56,7 @@ export default function SalesAssistant() {
             <label>Tipo de servicio<select name="service" required defaultValue=""><option value="" disabled>Selecciona una opción</option><option>Personas</option><option>Empresas</option><option>Fianzas</option><option>Gestión de riesgos</option></select></label>
           </div>
           <label>Describe el seguro o servicio que buscas<textarea name="description" required rows={4} placeholder="Cuéntanos brevemente qué necesitas proteger o resolver." /></label>
-          <label className="sales-privacy"><input name="privacy" type="checkbox" required /> <span>He leído y acepto el <a href="/aviso-privacidad" target="_blank" rel="noreferrer">aviso de privacidad</a> y autorizo el uso de mis datos para atender esta solicitud.</span></label>
+          <label className="sales-privacy"><input name="privacy" type="checkbox" required /> <span>He leído y acepto el <a href={`${assetBase}/aviso-privacidad`} target="_blank" rel="noreferrer">aviso de privacidad</a> y autorizo el uso de mis datos para atender esta solicitud.</span></label>
           <button className="sales-submit" type="submit">Continuar por WhatsApp <span aria-hidden="true">→</span></button>
           <small>Tu información solo se utilizará para atender esta solicitud.</small>
         </form>
