@@ -48,7 +48,7 @@ export default defineConfig(async () => {
       ? { watch: { useFsEvents: false, usePolling: true } }
       : undefined,
     plugins: [
-      vinext({ prerender: process.env.GITHUB_PAGES === "true" ? { routes: "*" } : undefined }),
+      vinext({ prerender: process.env.GITHUB_PAGES === "true" || process.env.CPANEL_STATIC === "true" ? { routes: "*" } : undefined }),
       sites(),
       cloudflare({
         viteEnvironment: { name: "rsc", childEnvironments: ["ssr"] },
