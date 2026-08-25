@@ -1,5 +1,5 @@
 footer {
-  background: #295689;
+  background: #223965;
   padding: 64px 0 150px;
 }
 
@@ -54,7 +54,7 @@ footer .footer-legal a {
 footer .footer-legal a:hover {
   background: #fff;
   border-color: #fff;
-  color: #295689;
+  color: #223965;
 }
 
 footer .copyright {
