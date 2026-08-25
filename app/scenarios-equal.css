@@ -1,5 +1,5 @@
 .risk-scenarios{background:#d2dbe6;color:#223762}
-.risk-scenarios .eyebrow.light{color:#3c51ec}
+.risk-scenarios .eyebrow.light{color:#4a6cc4}
 .risk-scenarios h2{color:#223762}
 .scenario-grid{display:flex;flex-wrap:wrap;gap:14px;background:transparent}
 .scenario-grid article,.scenario-grid article:last-child{flex:0 1 calc(25% - 10.5px);grid-column:auto;min-height:220px;padding:26px;border-radius:22px;background:#fff;color:#223762}

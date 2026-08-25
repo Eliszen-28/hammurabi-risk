@@ -2,11 +2,11 @@
 .about-mascot-clean:before{display:none}
 .about-mascot-clean img{height:82%;max-width:80%;object-fit:contain;mix-blend-mode:normal;filter:drop-shadow(0 20px 28px #22376220);position:relative;z-index:1}
 .about{background:#fff;color:#223762}
-.about .eyebrow.light{color:#3c51ec}
+.about .eyebrow.light{color:#4a6cc4}
 .about h2{color:#223762}
 .about .about-copy>p:not(.eyebrow){color:#505b6c}
 .about .values>div{border-top-color:#d7dde5}
-.about .values span{color:#3c51ec}
+.about .values span{color:#4a6cc4}
 .about .values h3{color:#223762}
 .about .values p{color:#5f6878}
 @media(max-width:850px){.about-mascot-clean img{height:84%;max-width:80%}}
