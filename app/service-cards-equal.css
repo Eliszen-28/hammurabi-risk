@@ -1,8 +1,23 @@
-.service-card,
-.service-card:nth-child(2) {
-  background: #f4f6f8;
+.service-card {
   border: none;
-  color: #223762;
+  color: #ffffff;
+}
+
+.service-card:nth-child(1) {
+  background: #2f639d;
+}
+
+.service-card:nth-child(2) {
+  background: #5977b0;
+  color: #ffffff;
+}
+
+.service-card:nth-child(3) {
+  background: #5b5a8a;
+}
+
+.service-card:nth-child(4) {
+  background: #7c4685;
 }
 
 .service-card:hover,
@@ -11,8 +26,8 @@
 .service-card:nth-child(2):hover,
 .service-card:nth-child(2):focus-visible,
 .service-card:nth-child(2):active {
-  background: #4a6cc4;
-  color: #ffffff;
+  background: #d2dbe6;
+  color: #223762;
 }
 
 .service-card:focus-visible {
