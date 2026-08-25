@@ -11,7 +11,7 @@
 .service-card:nth-child(2):hover,
 .service-card:nth-child(2):focus-visible,
 .service-card:nth-child(2):active {
-  background: #3d52ec;
+  background: #4a6cc4;
   color: #ffffff;
 }
 

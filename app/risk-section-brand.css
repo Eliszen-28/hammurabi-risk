@@ -1,8 +1,8 @@
 .risk-detail{background:#fff;color:#223762}
-.risk-detail .eyebrow.light{color:#3d52ec}
+.risk-detail .eyebrow.light{color:#4a6cc4}
 .risk-detail h2{color:#223762}
 .risk-head>p{color:#4c5870;font-size:17px;font-weight:600}
-.region-highlight{display:inline-block;color:#fff;background:#3d52ec;border-radius:6px;padding:0 .35em;font-size:1.08em;font-weight:950;letter-spacing:-.25px}
+.region-highlight{display:inline-block;color:#fff;background:#4a6cc4;border-radius:6px;padding:0 .35em;font-size:1.08em;font-weight:950;letter-spacing:-.25px}
 .risk-world-map{margin:62px 0 42px}
 .risk-world-map img{display:block;width:100%;height:auto;filter:contrast(1.35) brightness(1.08)}
 .risk-ideas{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
