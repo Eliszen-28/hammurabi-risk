@@ -42,6 +42,7 @@ import "./risk-section-brand.css";
 import "./scenarios-equal.css";
 import "./service-cards-equal.css";
 import "./mission-vision.css";
+import "./footer-redesign.css";
 import SalesAssistant from "./SalesAssistant";
 import CookieConsent from "./CookieConsent";
 
