@@ -1,0 +1,91 @@
+.purpose {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(56px, 8vw, 130px);
+  padding-block: clamp(90px, 10vw, 145px);
+}
+
+.purpose::after {
+  content: "";
+  position: absolute;
+  top: 22%;
+  bottom: 22%;
+  left: 50%;
+  width: 1px;
+  background: #c7cfda;
+}
+
+.purpose > div,
+.purpose > div:last-child {
+  position: relative;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+}
+
+.purpose .eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 28px;
+  color: #4a6cc4;
+}
+
+.purpose .eyebrow::before {
+  content: "";
+  width: 34px;
+  height: 3px;
+  background: #4a6cc4;
+}
+
+.purpose h3 {
+  max-width: 540px;
+  margin: 0 0 30px;
+  color: #223762;
+  font-size: clamp(38px, 4vw, 62px);
+  line-height: 1.03;
+  letter-spacing: -2px;
+}
+
+.purpose p:last-child {
+  max-width: 610px;
+  margin: 0;
+  color: #596172;
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+@media (max-width: 850px) {
+  .purpose {
+    grid-template-columns: 1fr;
+    gap: 58px;
+  }
+
+  .purpose::after {
+    top: 50%;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    width: auto;
+    height: 1px;
+  }
+}
+
+@media (max-width: 560px) {
+  .purpose {
+    gap: 48px;
+    padding-block: 76px;
+  }
+
+  .purpose h3 {
+    margin-bottom: 22px;
+    font-size: 38px;
+    letter-spacing: -1.2px;
+  }
+
+  .purpose p:last-child {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+}
