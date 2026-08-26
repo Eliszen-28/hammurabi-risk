@@ -57,18 +57,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hammurabi-risk.elisaaguilar10524.chatgpt.site"),
-  title: "Hammurabi Risk | Seguros, fianzas y gestión de riesgos",
-  description: "Broker mexicano con 30 años de experiencia en consultoría de riesgos, seguros y fianzas.",
+  metadataBase: new URL("https://www.hammurabirisk.com"),
+  title: {
+    default: "Hammurabi Risk | Seguros, fianzas y gestión de riesgos",
+    template: "%s | Hammurabi Risk",
+  },
+  description: "Broker de seguros y fianzas en Ciudad Juárez con más de 30 años de experiencia en consultoría y administración integral de riesgos.",
+  applicationName: "Hammurabi Risk",
+  keywords: ["seguros en Ciudad Juárez", "broker de seguros", "consultoría de riesgos", "fianzas", "seguros para empresas", "seguros para personas", "Chihuahua"],
+  authors: [{ name: "Hammurabi Risk", url: "https://www.hammurabirisk.com" }],
+  creator: "Hammurabi Risk",
+  publisher: "Hammurabi Risk",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
+  },
   openGraph: {
     title: "Hammurabi Risk",
-    description: "Riesgos bajo control. Tranquilidad en marcha.",
+    description: "Broker de seguros, fianzas y consultoría de riesgos en Ciudad Juárez, Chihuahua.",
+    url: "https://www.hammurabirisk.com",
+    siteName: "Hammurabi Risk",
+    locale: "es_MX",
+    type: "website",
     images: [{ url: "/og.png", width: 1729, height: 910, alt: "Hammurabi Risk" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Hammurabi Risk",
-    description: "Riesgos bajo control. Tranquilidad en marcha.",
+    description: "Broker de seguros, fianzas y consultoría de riesgos en Ciudad Juárez, Chihuahua.",
     images: ["/og.png"],
   },
   icons: {
@@ -83,12 +100,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const assetBase = process.env.GITHUB_PAGES === "true" ? "/hammurabi-risk" : "";
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "WebSite", "@id": "https://www.hammurabirisk.com/#website", url: "https://www.hammurabirisk.com/", name: "Hammurabi Risk", alternateName: "Hammurabi Risk Consultores de riesgos y seguros", inLanguage: "es-MX", publisher: { "@id": "https://www.hammurabirisk.com/#organization" } },
+      { "@type": ["Organization", "InsuranceAgency", "LocalBusiness"], "@id": "https://www.hammurabirisk.com/#organization", name: "Hammurabi Risk", url: "https://www.hammurabirisk.com/", logo: "https://www.hammurabirisk.com/isotipo.jpg", image: "https://www.hammurabirisk.com/og.png", description: "Broker mexicano especializado en gestión y consultoría de riesgos, seguros y fianzas.", telephone: "+52 656 669 6738", email: "aguilar@grupohammurabi.com", address: { "@type": "PostalAddress", streetAddress: "Plaza Hatria, Blvd. Gómez Morín, local 17", addressLocality: "Ciudad Juárez", addressRegion: "Chihuahua", addressCountry: "MX" }, areaServed: { "@type": "Country", name: "México" }, sameAs: ["https://www.facebook.com/HammurabiRisk", "https://www.instagram.com/hammurabirisk/", "https://www.youtube.com/@HammurabiRisk", "https://mx.linkedin.com/in/enrique-damian-rodz-aguilar-18784232"], knowsAbout: ["Gestión de riesgos", "Seguros para personas", "Seguros empresariales", "Fianzas", "Atención de siniestros"] },
+    ],
+  };
 
   return (
     <html lang="es">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         {children}
         <SalesAssistant assetBase={assetBase} />
         <CookieConsent />

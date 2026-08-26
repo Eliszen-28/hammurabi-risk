@@ -3,8 +3,9 @@ import SiteFooter from "../SiteFooter";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Nuestra promesa | Hammurabi Risk",
+  title: "Nuestra promesa de acompañamiento",
   description: "Una promesa que trasciende las pólizas: trabajar cada día para seguir mereciendo tu confianza.",
+  alternates: { canonical: "/nuestra-promesa" },
 };
 
 const promises = [

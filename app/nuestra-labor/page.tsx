@@ -3,8 +3,9 @@ import SiteFooter from "../SiteFooter";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Cuando nuestra labor cobra sentido | Hammurabi Risk",
+  title: "Atención y acompañamiento en siniestros",
   description: "Estar presentes antes del riesgo, durante el problema y después del siniestro.",
+  alternates: { canonical: "/nuestra-labor" },
 };
 
 const moments = ["Un diagnóstico inesperado", "Un accidente", "Una pérdida patrimonial", "Una operación que se detiene", "Una llamada que nadie esperaba recibir"];

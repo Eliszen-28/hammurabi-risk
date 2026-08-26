@@ -3,8 +3,9 @@ import SiteFooter from "../SiteFooter";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Nuestra metodología | Hammurabi Risk",
+  title: "Nuestra metodología de protección",
   description: "Siete etapas para transformar un seguro en una estrategia de protección personalizada.",
+  alternates: { canonical: "/metodologia" },
 };
 
 const stages = [

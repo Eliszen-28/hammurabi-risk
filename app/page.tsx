@@ -1,6 +1,8 @@
 import SiteFooter from "./SiteFooter";
 import MapLocation from "./MapLocation";
+import type { Metadata } from "next";
 export const dynamic = "force-static";
+export const metadata: Metadata = {title:"Seguros, fianzas y consultoría de riesgos en Ciudad Juárez",description:"Protege tu familia, patrimonio y empresa con Hammurabi Risk, broker de seguros, fianzas y gestión de riesgos con más de 30 años de experiencia.",alternates:{canonical:"/"}};
 
 const services = [
   ["01","Personas","personas","Gastos Médicos, Vida, Casa Habitación y Automóviles.","Tu vida cambia. Tu protección puede acompañarte."],

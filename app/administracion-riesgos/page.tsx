@@ -3,8 +3,9 @@ import SiteFooter from "../SiteFooter";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Administración integral de riesgos | Hammurabi Risk",
+  title: "Administración integral de riesgos",
   description: "Comprender, administrar y controlar los riesgos para proteger la continuidad, las operaciones y el patrimonio.",
+  alternates: { canonical: "/administracion-riesgos" },
 };
 
 const scenarios = ["Accidente laboral", "Incendio", "Enfermedad de alta especialidad", "Ciberataque", "Responsabilidad civil", "Interrupción de una operación crítica", "Pérdida de mercancía en traslado"];
